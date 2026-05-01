@@ -5,3 +5,7 @@ matplotlib
 yfinance
 statsmodels
 jupyter
+requests
+ipywidgets
+ipython
+lxml

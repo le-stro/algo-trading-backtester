@@ -24,6 +24,7 @@ The engine is strategy-agnostic — adding a new strategy means writing one func
 │   ├── data.py             — load price data from Yahoo Finance
 │   ├── backtester.py       — simulation engine (signals → equity curve)
 │   ├── metrics.py          — Sharpe, drawdown, CAGR, win rate
+│   ├── scanner.py          — find the best stock given a specific strategy
 │   └── strategies/
 │       ├── ma_crossover.py
 │       ├── mean_reversion.py
@@ -34,6 +35,7 @@ The engine is strategy-agnostic — adding a new strategy means writing one func
     ├── 02_mean_reversion.ipynb
     ├── 03_rsi.ipynb
     └── 04_pairs_trading.ipynb
+    └── 05_scanner.ipynb
 ```
 
 ---
@@ -47,6 +49,8 @@ The engine is strategy-agnostic — adding a new strategy means writing one func
 **03 — RSI:** four-panel chart (price, RSI, equity, drawdown), threshold sensitivity analysis.
 
 **04 — Pairs Trading:** cointegration test, hedge ratio estimation via OLS, z-score signals, scan across candidate pairs.
+
+**05 — Scanner:** scan for the best stock, understanding of what the strategies thrive on, measured by different metrics like sharpe ratio or total return.
 
 ---
 
@@ -82,6 +86,10 @@ matplotlib
 yfinance
 statsmodels
 jupyter
+requests
+ipywidgets
+ipython
+lxml
 ```
 
 ---

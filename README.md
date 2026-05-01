@@ -42,15 +42,15 @@ The engine is strategy-agnostic — adding a new strategy means writing one func
 
 ## Notebooks
 
-**01 — MA Crossover:** signal generation, equity curve vs. buy-and-hold, Sharpe heatmap across window combinations.
+01 — MA Crossover: signal generation, equity curve vs. buy-and-hold, Sharpe heatmap across window combinations.
 
-**02 — Mean Reversion:** Bollinger Band visualization with trade markers, parameter sweep over window and band width.
+02 — Mean Reversion: Bollinger Band visualization with trade markers, parameter sweep over window and band width.
 
-**03 — RSI:** four-panel chart (price, RSI, equity, drawdown), threshold sensitivity analysis.
+03 — RSI: four-panel chart (price, RSI, equity, drawdown), threshold sensitivity analysis.
 
-**04 — Pairs Trading:** cointegration test, hedge ratio estimation via OLS, z-score signals, scan across candidate pairs.
+04 — Pairs Trading: cointegration test, hedge ratio estimation via OLS, z-score signals, scan across candidate pairs.
 
-**05 — Scanner:** scan for the best stock, understanding of what the strategies thrive on, measured by different metrics like sharpe ratio or total return.
+05 — Scanner: scan for the best stock, understanding of what the strategies thrive on, measured by different metrics like sharpe ratio or total return.
 
 ---
 
